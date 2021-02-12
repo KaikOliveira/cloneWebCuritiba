@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Header from '../../components/Header';
+import Search from '../../components/Search';
 
 import { Wrapper } from './styles'
 
@@ -8,7 +9,8 @@ const Home: React.FC = () => {
   return (
     <Wrapper>
       <Header />
-      <h1>Home</h1>
+
+      <Search />
     </Wrapper>
   )
 }

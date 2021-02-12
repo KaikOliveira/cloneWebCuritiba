@@ -13,10 +13,12 @@ export const Wrapper = styled.div`
 export const Title = styled.p`
   width: 25%;
   height: 100%;
-  font-size: 17px;
+  font-size: 15px;
   margin-left: 2%;
   display: flex;
   align-items: center;
+  text-transform: uppercase;
+  color: 333;
 `;
 
 export const Nav = styled.div`
